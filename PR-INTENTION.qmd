@@ -1,27 +1,116 @@
 ---
 title: "Is Parenthood Worth Repeating? A Dyadic Latent Growth Curve Study of Parenthood Regret and Family Expansion Intentions"
 author: "Julia Idzikowska, Patrycja Osiecka, Jakub Duras, Konrad Piotrowski"
-data: today 
 format:
   html:
-    self-contained: true
-    toc: true
-    toc-location: left
-    toc-title: My content
-    theme:
-      light: minty
-      dark: superhero
-    frontszie: 32x
-    lang: pl
-execute: 
-  echo: fenced
-  message: true
-  error: true
-code-fold: true
-code-summary: See this specific code
-warning: false 
-code-annotation: select
+    theme: minty
+    toc: false
+    page-layout: full
+    embed-resources: true
+execute:
+  echo: false
+  warning: false
+  message: false
 ---
 
-# A Dyadic Latent Growth Curve Study of Parenthood Regret and Family Expansion Intentions
+<style>
+.poster {
+  min-height: 100vh;
+  padding: 2rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
 
+.poster-header {
+  border-bottom: 4px solid #171717;
+  padding-bottom: 1rem;
+  margin-bottom: 1.1rem;
+}
+
+.poster-grid {
+  display: grid;
+  grid-template-columns: 1fr 2.45fr 1fr;
+  gap: 1.1rem;
+}
+
+.panel {
+  background: white;
+  border: 1px solid #d7d0c7;
+  padding: 1.15rem;
+}
+
+.claim-box {
+  background: #46556f;
+  color: white;
+  padding: 1.35rem 1.55rem;
+}
+</style>
+
+<div class="poster">
+
+<header class="poster-header">
+  <div class="title-block">
+    <div class="eyebrow">Interactive scientific poster · D-LGCM only</div>
+    <h1>Is Parenthood Worth Repeating?</h1>
+    <p class="subtitle">A dyadic latent growth curve study of parenthood regret and family expansion intentions</p>
+    <p class="authors">Julia Idzikowska · Jakub Duras · Patrycja Osiecka · Konrad Piotrowski</p>
+  </div>
+</header>
+
+<main class="poster-grid">
+
+<section class="panel left-panel">
+
+<h2>Why this study?</h2>
+
+<p><strong>Parenthood regret</strong> is usually understood as a counterfactual, decision-related emotion: the feeling that one would not choose parenthood again if it were possible to go back in time.</p>
+
+<p>However, because parenthood is irreversible and identity-defining, regret may also reflect ongoing reconsideration of oneself as a parent.</p>
+
+<p><strong>Family expansion intentions</strong> may therefore indicate more than reproductive planning. They may also reflect whether parenthood is experienced as worth repeating.</p>
+
+<details class="fold">
+  <summary>Definition: parenthood regret</summary>
+  <p>In this study, parenthood regret was operationalized as <strong>reconsideration of oneself as a parent</strong>, using the reconsideration dimension of the Utrecht-Management of Identity Commitments Scale adapted to the parenting domain.</p>
+</details>
+
+<details class="fold">
+  <summary>Definition: family expansion intentions</summary>
+  <p>Family expansion intentions were measured as the perceived probability of having another child, rated on a <strong>0–100 scale</strong>, where higher values indicated a greater likelihood of future family expansion.</p>
+</details>
+
+<details class="fold">
+  <summary>Research aim</summary>
+  <p>The study examined whether parenthood regret and family expansion intentions are linked across the transition to parenthood at the level of initial status and developmental change, within mothers, within fathers, and across partners.</p>
+</details>
+
+</section>
+
+<section class="main-panel">
+
+<div class="claim-box">
+  <div class="claim-label">Main finding</div>
+  <h2>Higher initial intentions to have another child were linked to lower initial parenthood regret, and declines in these intentions co-occurred with increases in regret over time.</h2>
+  <p>This pattern appeared within both mothers and fathers. The development of family expansion intentions was also interdependent within couples.</p>
+</div>
+
+</section>
+
+<section class="panel right-panel">
+
+<h2>Study design</h2>
+
+<p><strong>Participants:</strong> 234 Polish couples followed across seven waves from pregnancy into the first year of parenthood.</p>
+
+<p><strong>Analytic approach:</strong> Dyadic Latent Growth Curve Model.</p>
+
+<p><strong>Model fit:</strong> χ²(320) = 527.826, CFI = .964, RMSEA = .053, SRMR = .064.</p>
+
+</section>
+
+</main>
+
+<footer class="poster-footer">
+  <strong>Conclusion:</strong> Family expansion intentions may be more than reproductive plans. They may function as an identity-relevant indicator of whether parenthood is experienced as worth repeating.
+</footer>
+
+</div>
