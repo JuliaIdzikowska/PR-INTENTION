@@ -152,7 +152,7 @@ Parenthood is irreversible and identity-defining. For that reason, parenthood re
 
 ## Background
 
-Parenthood regret is often conceptualized as a **counterfactual, decision-related emotion**: the feeling that, if it were possible to return to the past, one would choose not to become a parent.
+Parenthood regret is often conceptualized as a **counterfactual, decision-related emotion**: the feeling that, if it were possible to return to the past, one would choose not to become a parent [@piotrowski2026parenthoodregret].
 
 However, because parenthood is an irreversible and identity-defining life transition, regret may also be understood as a form of **ongoing reconsideration of parental identity**.
 
@@ -179,7 +179,7 @@ Intercept represents **initial level**, whereas slope represents **linear change
 
 ### Measures
 
-**Parenthood regret** was operationalized using the reconsideration dimension of the Utrecht-Management of Identity Commitments Scale adapted to the parenting domain.
+**Parenthood regret** was operationalized using the reconsideration dimension of the Utrecht-Management of Identity Commitments Scale adapted to the parenting domain [@piotrowski2018umics].
 
 **Family expansion intentions** were measured as the perceived probability of having another child, rated on a 0–100 scale. Higher scores indicated a greater perceived likelihood of future family expansion.
 
