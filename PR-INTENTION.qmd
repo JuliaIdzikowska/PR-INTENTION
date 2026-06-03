@@ -13,104 +13,385 @@ execute:
   message: false
 ---
 
+
 <style>
-.poster {
-  min-height: 100vh;
-  padding: 2rem;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+body {
+  font-size: 18px;
 }
 
-.poster-header {
-  border-bottom: 4px solid #171717;
-  padding-bottom: 1rem;
-  margin-bottom: 1.1rem;
+h1, h2, h3 {
+  font-weight: 700;
 }
 
-.poster-grid {
+.main-finding {
+  background: #e8f4f1;
+  border-left: 8px solid #78c2ad;
+  padding: 1.4rem;
+  margin: 1rem 0 1.5rem 0;
+  font-size: 1.45rem;
+  line-height: 1.35;
+}
+
+.small-note {
+  color: #555;
+  font-size: 0.95rem;
+}
+
+.result-box {
+  background: #f7f7f7;
+  border-left: 6px solid #78c2ad;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+.method-box {
+  background: #f8f9fa;
+  border: 1px solid #ddd;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+.model-grid {
   display: grid;
-  grid-template-columns: 1fr 2.45fr 1fr;
-  gap: 1.1rem;
+  grid-template-columns: 1fr 0.75fr 1fr;
+  gap: 1rem;
+  align-items: start;
+  margin-top: 1.5rem;
 }
 
-.panel {
-  background: white;
-  border: 1px solid #d7d0c7;
-  padding: 1.15rem;
+.person-box {
+  background: #ffffff;
+  border: 1px solid #ddd;
+  padding: 1rem;
 }
 
-.claim-box {
-  background: #46556f;
-  color: white;
-  padding: 1.35rem 1.55rem;
+.dyadic-box {
+  background: #f1f7f5;
+  border: 1px solid #78c2ad;
+  padding: 1rem;
+}
+
+.node {
+  background: #e8f4f1;
+  border: 2px solid #78c2ad;
+  padding: 0.8rem;
+  margin: 0.6rem 0;
+  text-align: center;
+  font-weight: 600;
+}
+
+.association {
+  text-align: center;
+  font-weight: 700;
+  margin: 0.5rem 0;
+}
+
+.warning-box {
+  background: #fff8e1;
+  border-left: 6px solid #ffc107;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+details {
+  background: #f8f9fa;
+  border: 1px solid #ddd;
+  padding: 0.8rem 1rem;
+  margin: 1rem 0;
+}
+
+summary {
+  font-weight: 700;
+  cursor: pointer;
+}
+
+@media (max-width: 900px) {
+  .model-grid {
+    grid-template-columns: 1fr;
+  }
 }
 </style>
 
-<div class="poster">
+::: {.main-finding}
+**Main finding:** Higher initial intentions to have another child were linked to lower initial parenthood regret, and declines in these intentions co-occurred with increases in regret over time.
+:::
 
-<header class="poster-header">
-  <div class="title-block">
-    <div class="eyebrow">Interactive scientific poster · D-LGCM only</div>
-    <h1>Is Parenthood Worth Repeating?</h1>
-    <p class="subtitle">A dyadic latent growth curve study of parenthood regret and family expansion intentions</p>
-    <p class="authors">Julia Idzikowska · Jakub Duras · Patrycja Osiecka · Konrad Piotrowski</p>
-  </div>
-</header>
 
-<main class="poster-grid">
 
-<section class="panel left-panel">
+::: {.panel-tabset}
 
-<h2>Why this study?</h2>
+## Aim
 
-<p><strong>Parenthood regret</strong> is usually understood as a counterfactual, decision-related emotion: the feeling that one would not choose parenthood again if it were possible to go back in time.</p>
+The aim of the study was to examine whether **parenthood regret** and **family expansion intentions** are linked across the transition to parenthood.
 
-<p>However, because parenthood is irreversible and identity-defining, regret may also reflect ongoing reconsideration of oneself as a parent.</p>
+More specifically, the study asked whether these constructs are associated:
 
-<p><strong>Family expansion intentions</strong> may therefore indicate more than reproductive planning. They may also reflect whether parenthood is experienced as worth repeating.</p>
+1. at the level of **initial status**,  
+2. at the level of **linear developmental change**,  
+3. within mothers and fathers separately,  
+4. and across partners within couples.
 
-<details class="fold">
-  <summary>Definition: parenthood regret</summary>
-  <p>In this study, parenthood regret was operationalized as <strong>reconsideration of oneself as a parent</strong>, using the reconsideration dimension of the Utrecht-Management of Identity Commitments Scale adapted to the parenting domain.</p>
+::: {.result-box}
+**Core theoretical idea:** family expansion intentions may be more than reproductive plans. They may also indicate whether parenthood is experienced as an identity-relevant experience worth repeating.
+:::
+
+<details>
+<summary>Why family expansion intentions matter theoretically</summary>
+
+Intentions to have another child are not only about future reproductive planning. In the context of parenthood regret, they may also reflect whether the experience of parenthood is evaluated as something one would be willing to repeat.
+
 </details>
 
-<details class="fold">
-  <summary>Definition: family expansion intentions</summary>
-  <p>Family expansion intentions were measured as the perceived probability of having another child, rated on a <strong>0–100 scale</strong>, where higher values indicated a greater likelihood of future family expansion.</p>
+<details>
+<summary>Why parenthood regret is not only “regret about a past decision”</summary>
+
+Parenthood is irreversible and identity-defining. For that reason, parenthood regret may involve more than dissatisfaction with a past choice. It may also reflect ongoing reconsideration of oneself as a parent.
+
 </details>
 
-<details class="fold">
-  <summary>Research aim</summary>
-  <p>The study examined whether parenthood regret and family expansion intentions are linked across the transition to parenthood at the level of initial status and developmental change, within mothers, within fathers, and across partners.</p>
-</details>
+## Background
 
-</section>
+Parenthood regret is often conceptualized as a **counterfactual, decision-related emotion**: the feeling that, if it were possible to return to the past, one would choose not to become a parent.
 
-<section class="main-panel">
+However, because parenthood is an irreversible and identity-defining life transition, regret may also be understood as a form of **ongoing reconsideration of parental identity**.
 
-<div class="claim-box">
-  <div class="claim-label">Main finding</div>
-  <h2>Higher initial intentions to have another child were linked to lower initial parenthood regret, and declines in these intentions co-occurred with increases in regret over time.</h2>
-  <p>This pattern appeared within both mothers and fathers. The development of family expansion intentions was also interdependent within couples.</p>
+From this perspective, family expansion intentions become theoretically informative. The perceived probability of having another child may reflect not only reproductive plans, but also whether parenthood is experienced as **worth repeating**.
+
+::: {.warning-box}
+The conceptual distinction matters: this study does not treat family expansion intentions as a simple behavioral plan. It treats them as a psychologically meaningful indicator of how parenthood is evaluated during the transition to parenting.
+:::
+
+## Methods
+
+::: {.method-box}
+**Design:** longitudinal dyadic study  
+**Sample:** 234 Polish couples  
+**Measurement waves:** seven waves from pregnancy into the first year of parenthood  
+**Analytic model:** Dyadic Latent Growth Curve Model  
+:::
+
+### Measures
+
+**Parenthood regret** was operationalized using the reconsideration dimension of the Utrecht-Management of Identity Commitments Scale adapted to the parenting domain.
+
+**Family expansion intentions** were measured as the perceived probability of having another child, rated on a 0–100 scale. Higher scores indicated a greater perceived likelihood of future family expansion.
+
+### Analytic strategy
+
+The D-LGCM estimated latent **intercepts** and **slopes** for both constructs, separately for mothers and fathers.
+
+::: {.method-box}
+**Intercept** = initial level of the construct  
+**Slope** = linear change over time
+:::
+
+The model tested associations between:
+
+- mothers’ family expansion intentions and mothers’ parenthood regret,
+- fathers’ family expansion intentions and fathers’ parenthood regret,
+- mothers’ and fathers’ initial levels,
+- mothers’ and fathers’ changes over time.
+
+### Model fit
+
+::: {.result-box}
+χ²(320) = 527.826  
+CFI = .964  
+RMSEA = .053  
+SRMR = .064
+:::
+
+## Results
+
+### Mean-level change
+
+::: {.result-box}
+**Family expansion intentions decreased over time among fathers**,  
+B = -1.28, p < .001.
+
+Among mothers, the change was not statistically significant,  
+B = -0.22, p = .363.
+:::
+
+::: {.result-box}
+**Parenthood regret showed no significant mean linear change** among women,  
+B = -0.007, p = .355,  
+or men,  
+B = 0.006, p = .411.
+:::
+
+### Initial levels
+
+Higher initial family expansion intentions were associated with lower initial parenthood regret among both women and men.
+
+::: {.result-box}
+Women: B = -6.27, p < .001  
+Men: B = -5.99, p < .001
+:::
+
+### Linked developmental trajectories
+
+Declines in family expansion intentions co-occurred with increases in parenthood regret among both women and men.
+
+::: {.result-box}
+Women: B = -0.082, p = .024  
+Men: B = -0.058, p = .037
+:::
+
+### Dyadic associations
+
+Initial family expansion intentions were positively associated across partners.
+
+::: {.result-box}
+Partner similarity in initial family expansion intentions:  
+B = 546.22, p < .001
+:::
+
+Changes in family expansion intentions were also positively associated across partners.
+
+::: {.result-box}
+Partner similarity in change in family expansion intentions:  
+B = 4.82, p < .001
+:::
+
+Cross-partner associations were also observed between one partner’s initial family expansion intentions and the other partner’s initial parenthood regret.
+
+::: {.result-box}
+Women’s intentions ↔ men’s regret: B = -2.68, p = .034  
+Men’s intentions ↔ women’s regret: B = -3.55, p = .023
+:::
+
+## Results model
+
+<div class="model-grid">
+
+<div class="person-box">
+
+### Mothers
+
+<div class="node">
+Family expansion intentions<br>
+Intercept
 </div>
 
-</section>
+<div class="association">
+↔<br>
+B = -6.27, p &lt; .001
+</div>
 
-<section class="panel right-panel">
+<div class="node">
+Parenthood regret<br>
+Intercept
+</div>
 
-<h2>Study design</h2>
+<hr>
 
-<p><strong>Participants:</strong> 234 Polish couples followed across seven waves from pregnancy into the first year of parenthood.</p>
+<div class="node">
+Family expansion intentions<br>
+Slope
+</div>
 
-<p><strong>Analytic approach:</strong> Dyadic Latent Growth Curve Model.</p>
+<div class="association">
+↔<br>
+B = -0.082, p = .024
+</div>
 
-<p><strong>Model fit:</strong> χ²(320) = 527.826, CFI = .964, RMSEA = .053, SRMR = .064.</p>
-
-</section>
-
-</main>
-
-<footer class="poster-footer">
-  <strong>Conclusion:</strong> Family expansion intentions may be more than reproductive plans. They may function as an identity-relevant indicator of whether parenthood is experienced as worth repeating.
-</footer>
+<div class="node">
+Parenthood regret<br>
+Slope
+</div>
 
 </div>
+
+<div class="dyadic-box">
+
+### Dyadic level
+
+**Initial family expansion intentions aligned across partners**  
+B = 546.22, p < .001
+
+<hr>
+
+**Change in family expansion intentions aligned across partners**  
+B = 4.82, p < .001
+
+<hr>
+
+**Cross-partner initial associations**
+
+Women’s intentions ↔ men’s regret:  
+B = -2.68, p = .034
+
+Men’s intentions ↔ women’s regret:  
+B = -3.55, p = .023
+
+</div>
+
+<div class="person-box">
+
+### Fathers
+
+<div class="node">
+Family expansion intentions<br>
+Intercept
+</div>
+
+<div class="association">
+↔<br>
+B = -5.99, p &lt; .001
+</div>
+
+<div class="node">
+Parenthood regret<br>
+Intercept
+</div>
+
+<hr>
+
+<div class="node">
+Family expansion intentions<br>
+Slope
+</div>
+
+<div class="association">
+↔<br>
+B = -0.058, p = .037
+</div>
+
+<div class="node">
+Parenthood regret<br>
+Slope
+</div>
+
+</div>
+
+</div>
+
+::: {.warning-box}
+Double-headed arrows represent associations/covariances, not causal paths.
+:::
+
+## Interpretation
+
+The findings suggest that parenthood regret and family expansion intentions are linked across the transition to parenthood at both the level of **initial status** and **developmental change**.
+
+Parents who initially reported stronger intentions to have another child also reported lower initial parenthood regret. Moreover, decreases in family expansion intentions co-occurred with increases in parenthood regret over time.
+
+::: {.result-box}
+**Substantive interpretation:** family expansion intentions may function as an identity-relevant indicator of whether parenthood is experienced as worth repeating.
+:::
+
+::: {.warning-box}
+**Methodological caution:** the D-LGCM supports developmental coupling, not causal prediction. The model does not show that declining family expansion intentions cause parenthood regret. It shows that the trajectories of these two processes move together in a theoretically meaningful way.
+:::
+
+
+<details>
+<summary>TAKEAWAY</summary>
+
+Family expansion intentions and parenthood regret appear to be developmentally coupled during the transition to parenthood, and this coupling unfolds within the dyadic context of the couple.
+
+</details>
+
+:::
+
