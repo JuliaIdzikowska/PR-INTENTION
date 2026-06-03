@@ -1,11 +1,27 @@
 ---
-title: "PR-INTENTION"
+title: "Is Parenthood Worth Repeating? A Dyadic Latent Growth Curve Study of Parenthood Regret and Family Expansion Intentions"
+author: "Julia Idzikowska, Patrycja Osiecka, Jakub Duras, Konrad Piotrowski"
+data: today 
+format:
+  html:
+    self-contained: true
+    toc: true
+    toc-location: left
+    toc-title: My content
+    theme:
+      light: minty
+      dark: superhero
+    frontszie: 32x
+    lang: pl
+execute: 
+  echo: fenced
+  message: true
+  error: true
+code-fold: true
+code-summary: See this specific code
+warning: false 
+code-annotation: select
 ---
 
-## Quarto
+# A Dyadic Latent Growth Curve Study of Parenthood Regret and Family Expansion Intentions
 
-Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
-
-```{r}
-1 + 1
-```
