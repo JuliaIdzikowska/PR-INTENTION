@@ -1,6 +1,7 @@
 ---
 title: "Is Parenthood Worth Repeating? A Dyadic Latent Growth Curve Study of Parenthood Regret and Family Expansion Intentions"
 author: "Julia Idzikowska, Patrycja Osiecka, Jakub Duras, Konrad Piotrowski"
+bibliography: references.bib
 format:
   html:
     theme: minty
@@ -170,6 +171,12 @@ The conceptual distinction matters: this study does not treat family expansion i
 **Analytic model:** Dyadic Latent Growth Curve Model  
 :::
 
+
+Intercept represents **initial level**, whereas slope represents **linear change over time**.
+
+@fig-fullmodel presents the full 7-wave dyadic latent growth curve model.
+
+
 ### Measures
 
 **Parenthood regret** was operationalized using the reconsideration dimension of the Utrecht-Management of Identity Commitments Scale adapted to the parenting domain.
@@ -201,23 +208,26 @@ RMSEA = .053
 SRMR = .064
 :::
 
+![Full 7-wave dyadic latent growth curve model. Intercept represents initial status; slope represents linear change over time.](images/Figure1.png){#fig-fullmodel fig-align="center" width="100%"}
+
+
 ## Results
 
 ### Mean-level change
 
 ::: {.result-box}
 **Family expansion intentions decreased over time among fathers**,  
-B = -1.28, p < .001.
+*B* = -1.28, *p* < .001.
 
 Among mothers, the change was not statistically significant,  
-B = -0.22, p = .363.
+*B* = -0.22, *p* = .363.
 :::
 
 ::: {.result-box}
 **Parenthood regret showed no significant mean linear change** among women,  
-B = -0.007, p = .355,  
+*B* = -0.007, *p* = .355,  
 or men,  
-B = 0.006, p = .411.
+*B* = 0.006, *p* = .411.
 :::
 
 ### Initial levels
@@ -225,8 +235,8 @@ B = 0.006, p = .411.
 Higher initial family expansion intentions were associated with lower initial parenthood regret among both women and men.
 
 ::: {.result-box}
-Women: B = -6.27, p < .001  
-Men: B = -5.99, p < .001
+Women: *B* = -6.27, *p* < .001  
+Men: *B* = -5.99, *p* < .001
 :::
 
 ### Linked developmental trajectories
@@ -234,8 +244,8 @@ Men: B = -5.99, p < .001
 Declines in family expansion intentions co-occurred with increases in parenthood regret among both women and men.
 
 ::: {.result-box}
-Women: B = -0.082, p = .024  
-Men: B = -0.058, p = .037
+Women: *B* = -0.082, *p* = .024  
+Men: *B* = -0.058, *p* = .037
 :::
 
 ### Dyadic associations
@@ -244,24 +254,25 @@ Initial family expansion intentions were positively associated across partners.
 
 ::: {.result-box}
 Partner similarity in initial family expansion intentions:  
-B = 546.22, p < .001
+*B* = 546.22, *p* < .001
 :::
 
 Changes in family expansion intentions were also positively associated across partners.
 
 ::: {.result-box}
 Partner similarity in change in family expansion intentions:  
-B = 4.82, p < .001
+*B* = 4.82, *p* < .001
 :::
 
 Cross-partner associations were also observed between one partner’s initial family expansion intentions and the other partner’s initial parenthood regret.
 
 ::: {.result-box}
-Women’s intentions ↔ men’s regret: B = -2.68, p = .034  
-Men’s intentions ↔ women’s regret: B = -3.55, p = .023
+Women’s intentions ↔ men’s regret: *B* = -2.68, *p* = .034  
+Men’s intentions ↔ women’s regret: *B* = -3.55, *p* = .023
 :::
 
-## Results model
+
+## Discussion
 
 <div class="model-grid">
 
@@ -276,7 +287,7 @@ Intercept
 
 <div class="association">
 ↔<br>
-B = -6.27, p &lt; .001
+*B* = -6.27, *p* &lt; .001
 </div>
 
 <div class="node">
@@ -293,7 +304,7 @@ Slope
 
 <div class="association">
 ↔<br>
-B = -0.082, p = .024
+*B* = -0.082, *p* = .024
 </div>
 
 <div class="node">
@@ -308,22 +319,22 @@ Slope
 ### Dyadic level
 
 **Initial family expansion intentions aligned across partners**  
-B = 546.22, p < .001
+*B* = 546.22, *p* < .001
 
 <hr>
 
 **Change in family expansion intentions aligned across partners**  
-B = 4.82, p < .001
+*B* = 4.82, *p* < .001
 
 <hr>
 
 **Cross-partner initial associations**
 
 Women’s intentions ↔ men’s regret:  
-B = -2.68, p = .034
+*B* = -2.68, *p* = .034
 
 Men’s intentions ↔ women’s regret:  
-B = -3.55, p = .023
+*B* = -3.55, *p* = .023
 
 </div>
 
@@ -338,7 +349,7 @@ Intercept
 
 <div class="association">
 ↔<br>
-B = -5.99, p &lt; .001
+*B* = -5.99, *p* &lt; .001
 </div>
 
 <div class="node">
@@ -355,7 +366,7 @@ Slope
 
 <div class="association">
 ↔<br>
-B = -0.058, p = .037
+*B* = -0.058, *p* = .037
 </div>
 
 <div class="node">
@@ -368,8 +379,10 @@ Slope
 </div>
 
 ::: {.warning-box}
-Double-headed arrows represent associations/covariances, not causal paths.
+I do not know what to write here, but I like the yellow color between these green tables.
 :::
+
+![Simplified D-LGCM results summary. Double-headed arrows represent associations/covariances, not causal paths.](images/Figure2.png){#fig-summary fig-align="center" width="100%"}
 
 ## Interpretation
 
